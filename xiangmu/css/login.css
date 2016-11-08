@@ -1,0 +1,55 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration: none; color: #333;}
+a:hover{color: red; text-decoration: none;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{font-size:12px; font-family:"微软雅黑";}
+input,a{outline:none;}
+/*head*/
+.head{height: 90px;}
+.login{width: 990px; margin: 0 auto; }
+.head1{margin-top: 23px; float: left;}
+#welcome{color: #666; font-size: 22px; margin: 32px 0 0 8px; border-left: solid #e4e4e4 1px; padding-left: 8px; float: left;}
+#loginr{float: right; margin-top: 51px; }
+label{color: #999; font-weight: 100; font-family: Arial;}
+.barber{border-right: solid #ccc 1px; margin-right: 5px; padding-right: 5px;}
+
+
+/*middle*/
+.middle{background: url(../img/loginbg.jpeg) no-repeat 50% 50%; height: 480px;}
+.middlej{height: 480px; width: 990px; margin: 0 auto; position: relative;}
+.jad{height: 480px;}
+.jad a{height: 100%; display: block;}
+.loginpanel{position: absolute; background: #fff; width: 350px;  right: 0;  top: 22px; height: 450px;}
+.hd{position: relative; font-size: 16px; height: 53px; color: #999; border-bottom: solid #e4e4e4 1px;}
+.hd i{position: absolute; color: #fff5f5; bottom: -1px; font-size: 20px; left: 46px; width: 80px; background: #f03468; height: 2px;  overflow: hidden;}
+.username{float: left; width: 50%;  text-align: center;  margin-top: 20px; cursor: pointer;}
+.userpw{float: left; width: 50%; text-align: center;  margin-top: 20px; cursor: pointer;}
+.bd{ position: relative; overflow: hidden;}
+.textbox{position: relative; margin: 25px 0 25px 25px; overflow: hidden;}
+.bd ul{width: 700px;}
+.bd ul li{float: left; width: 350px; background: white ;}
+.bd ul form{width: 316px; margin: 0 auto;}
+form .txt{padding-left: 50px; width: 264px; height: 38px; border-radius: 2px; border: 1px solid #e5e5e5;}
+.glyphicon-user,.glyphicon-lock,.glyphicon-warning-sign{background: #f9aec3; left: 1px; top: 1px; width: 40px; color: #fff; text-align: center; line-height: 38px; font-size: 22px; -webkit-text-stroke-width: 0; height: 38px; position: absolute;}
+.captchaCode{width: 100px;    height: 38px;border-radius: 2px; border: 1px solid #e5e5e5; float: left;padding-left: 50px;}
+.captcha{width: 90px; height: 40px; float: left; margin: 0 5px; border-radius: 3px; border: 1px solid #E5E5E5;}
+.remember{margin:0 auto; width: 260px;}
+.btn{line-height: 38px; text-align: center; background: #f03468;  border-radius: 2px; font-size: 18px; width: 261px; color: white;}
+#loginPaw{width: 150px;}
+#phonecaptcha{background: #ffba00; width: 120px; line-height: 40px; height: 40px; border: 0; margin-left: -5px; font-size: 14px; position: absolute;}
+.txtforget{font-size: 6px;}
+.txtforget a{color: red; }
+#re1{margin-top: 50px;}
+
+/*footer*/
+.footer{text-align: center;  padding: 35px 0 5px;  color: #999;}
+.footer p{padding-top: 5px;}
+.footer a{    color: #999; margin: 0 5px;}
+.footer a:hover{text-decoration: underline;}
+
+
+
+

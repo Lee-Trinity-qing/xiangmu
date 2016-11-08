@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "Keywords" content = "奥买家" />
+		<meta name = "Description" content = "奥买家-全球购物专家 全部商品分类 母婴用品 进口奶粉 / 纸尿裤 / 辅食/营养 / 宝宝用品 / 宝宝出行/玩具 / 妈妈用品 进口奶粉 爱他美 荷兰牛栏 a2 美素 ..." />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel = "stylesheet" type = "text/css" href = "css/medo.css"/>
+		<script src="js/jquery-1.11.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<title>奥买家全球购-海外正品,奥买家自营免税店</title>
+	</head>
+	<body>
+<!--顶部-->
+		<div class = "top">
+			<div id = "sitnav">
+				<ul class = "sitlogin">
+					<li>
+						欢迎来到奥买家！
+						<a href = "login.html" class = "alogin" target="_blank">登录</a>
+						<a href = "#" class="aregister">免费注册</a>
+					</li>
+				</ul>
+				<ul class="sitright">
+					<li>
+						<span class="glyphicon glyphicon-shopping-cart" id="ts1"></span>
+						<a href="#">我的购物车</a>
+					</li>
+					<li id = tcode class="">
+					<span class="glyphicon glyphicon-phone" id="ts2"></span>
+					<a href="#" class="tphone">手机</a>
+					<img src="img/ercode.jpeg" id="tcimg"/>
+					</li>
+					<li>
+						<a href="#">奥买家体验店</a>
+					</li>
+					<li id = "tmenu" class="">
+						<a href="#" class="tsig">个人中心</a>
+						<span class="caret"></span>
+						<div id="private">
+							<a href="#">我的订单</a>
+							<a href="#">我的优惠券</a>
+							<a href="#">我的收货地址</a>
+							<a href="#">我的退换货</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+<!--头部-->
+		<div class="headerbg">
+			<div class="header">
+				<div class="logodiv">
+					<a href="#" class = "headerlogo1"><img src="img/logobd.png"/></a>
+					<a href="#" class = "headerlogo2"><img src="img/logoa.png"/></a>
+				</div>
+				
+				<div class="subtips">
+					<a href="#"><div class="subtipsa1">
+						
+					</div></a>
+					<a href="#"><div class="subtipsa2"></div></a>
+					<a href="#"><div class="subtipsa3"></div></a>
+				</div>
+			</div>
+		</div>
+<!--nav-->
+		
+<!--footer-->
+		<div class="footerbg">
+			<div class="footer">
+				<div class="footer-logo">
+					<a href="#"><img src="img/footerlogo.png"/></a>
+					<div class="footer-logo-box">
+						<span>关于我们</span>
+						<a href="#" class="fboxa"><img src="img/icon-wb.png"/></a>
+						<a href="#" class="fboxb"><img src="img/icon-wx.png"/></a>
+						<div class="barcode">
+							<img src="img/barcode.png"/>
+						</div>
+						<div class="barcode1">
+							<img src="img/qr-wx.png"/>
+						</div>
+					</div>
+				</div>
+				<div class="footer-menu1">
+					<dl>
+						<dt>购物条款</dt>
+						<dd><a href="#">会员注册协议</a></dd>
+						<dd><a href="#">网站使用条款</a></dd>
+						<dd><a href="#">隐私条款</a></dd>
+					</dl>
+				</div>
+				<div class="footer-menu1">
+					<dl>
+						<dt>购物指南</dt>
+						<dd><a href="#">简单购物流程</a></dd>
+						<dd><a href="#">售后服务</a></dd>
+						<dd><a href="#">网站负责申明</a></dd>
+					</dl>
+				</div>
+				<div class="footer-menu1">
+					<dl>
+						<dt>新手上路</dt>
+						<dd><a href="#">订单的几种状态</a></dd>
+						<dd><a href="#">顾客导读</a></dd>
+					</dl>
+				</div>
+				<div class="footer-menu1">
+					<dl>
+						<dt>支付配送方式</dt>
+						<dd><a href="#">关于送货与验货</a></dd>
+						<dd><a href="#">网上支付小贴士</a></dd>
+					</dl>
+				</div>
+				<div class="footer-menu1">
+					<dl>
+						<dt>奥买家</dt>
+						<dd><a href="#">招商入驻</a></dd>
+						<dd><a href="#">关于奥买家</a></dd>
+						<dd><a href="#">网站负责申明</a></dd>
+					</dl>
+				</div>
+				<div class="footer-code">
+					<p><img src="img/code.png"/></p>
+					<p>下载奥买家移动APP</p>
+				</div>
+			</div>
+		</div>
+<!--copyright-->
+		
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	$("#tmenu").hover(function(){
+		this.className = "tmenu2";
+		$("#private").stop(true,false).slideDown();
+	},function(){
+		this.className = "";
+		$("#private").stop(true,false).slideUp();
+	})
+	
+	$("#tcode").hover(function(){
+		this.className = "tmenu3";
+		$("#tcimg").stop(true,false).slideDown();
+	},function(){
+		this.className = "";
+		$("#tcimg").stop(true,false).slideUp();
+	})
+
+
+$(function() {
+    var sWidth = $("#focus").width(); //获取焦点图的宽度（显示面积）
+    var len = $("#focus ul li").length; //获取焦点图个数
+    var index = 0;
+    var picTimer;
+
+    //以下代码添加数字按钮和按钮后的半透明条，还有上一页、下一页两个按钮
+    var btn = "<div class='btnBg'></div><div class='btn'>";
+    for(var i=0; i < len; i++) {
+        btn += "<span></span>";
+    }
+    btn += "</div><div class='preNext pre'></div><div class='preNext next'></div>";
+    $("#focus").append(btn);
+    $("#focus .btnBg").css("opacity",0.5);
+
+    //为小按钮添加鼠标滑入事件，以显示相应的内容
+    $("#focus .btn span").css("opacity",0.4).mouseover(function() {
+        index = $("#focus .btn span").index(this);
+        showPics(index);
+    }).eq(0).trigger("mouseover");
+
+    //上一页、下一页按钮透明度处理
+    $("#focus .preNext").css("opacity",0.2).hover(function() {
+        $(this).stop(true,false).animate({"opacity":"0.5"},300);
+    },function() {
+        $(this).stop(true,false).animate({"opacity":"0.2"},300);
+    });
+
+    //上一页按钮
+    $("#focus .pre").click(function() {
+        index -= 1;
+        if(index == -1) {index = len - 1;}
+        showPics(index);
+    });
+
+    //下一页按钮
+    $("#focus .next").click(function() {
+        index += 1;
+        if(index == len) {index = 0;}
+        showPics(index);
+    });
+
+    //本例为左右滚动，即所有li元素都是在同一排向左浮动，所以这里需要计算出外围ul元素的宽度
+    $("#focus ul").css("width",sWidth * (len));
+
+    //鼠标滑上焦点图时停止自动播放，滑出时开始自动播放
+    $("#focus").hover(function() {
+        clearInterval(picTimer);
+    },function() {
+        picTimer = setInterval(function() {
+            showPics(index);
+            index++;
+            if(index == len) {index = 0;}
+        },3000); //此4000代表自动播放的间隔，单位：毫秒
+    }).trigger("mouseleave");
+
+    //显示图片函数，根据接收的index值显示相应的内容
+    function showPics(index) { //普通切换
+        var nowLeft = -index*sWidth; //根据index值计算ul元素的left值
+        $("#focus ul").stop(true,false).animate({"left":nowLeft},300); //通过animate()调整ul元素滚动到计算出的position
+        //$("#focus .btn span").removeClass("on").eq(index).addClass("on"); //为当前的按钮切换到选中的效果
+        $("#focus .btn span").stop(true,false).animate({"opacity":"0.4"},300).eq(index).stop(true,false).animate({"opacity":"1"},300); //为当前的按钮切换到选中的效果
+    }
+});
+
+
+
+//操作脚部二维码
+	$(".fboxa").hover(function(){
+		$(".barcode").css("display", "block")
+	},function(){
+		$(".barcode").css("display", "none")
+	})
+
+	$(".fboxb").hover(function(){
+		$(".barcode1").css("display", "block")
+	},function(){
+		$(".barcode1").css("display", "none")
+	})
+
+//左侧操作fixedtool
+	for (i=0;i<$(".fixedtool a").length;i++){
+		//alert($(".fixedtool a").eq[i])
+		$(".fixedtool a").eq(i).hover(function(){
+			//alert($(this).index())
+			$(this).find("i").css("display","none");
+			$(this).find("span").css("display","block").css("cursor","pointer");
+		},function(){
+			$(this).find("span").css("display","none");
+			$(this).find("i").css("display","block");
+		})
+	}
+	
+	
+	//console.log($(window).scrollTop());
+	$(window).scroll(function(){
+		//console.log($(window).scrollTop());
+	var top = $(window).scrollTop();
+	if (top > 500){
+		$(".fixedtool").css("display","block");
+	}else{
+		$(".fixedtool").css("display","none");
+	}
+	});
+
+		//alert($(".fixedtool").find("a1"))
+	$(".fixedtool").find(".a1").click(function(){
+		$(window).scrollTop(2830);
+	});
+	$(".fixedtool").find(".a2").click(function(){
+		$(window).scrollTop(3400);
+	});
+	$(".fixedtool").find(".a3").click(function(){
+		$(window).scrollTop(4000);
+	});
+	$(".fixedtool").find(".a4").click(function(){
+		$(window).scrollTop(4600);
+	});
+	$(".fixedtool").find(".a5").click(function(){
+		$(window).scrollTop(5200);
+	});
+	$(".fixedtool").find(".a6").click(function(){
+		$(window).scrollTop(5800);
+	});
+	$(".fixedtool").find(".a7").click(function(){
+		$(window).scrollTop(6400);
+	});
+	$(".fixedtool").find(".a8").click(function(){
+		$(window).scrollTop(7000);
+	});
+	$(".fixedtool").find(".a9").click(function(){
+		$(window).scrollTop(7600);
+	});
+	$(".fixedtool").find(".a10").click(function(){
+		$(window).scrollTop(8200);
+	});
+	$(".fixedtool").find(".a11").click(function(){
+		$(window).scrollTop(8800);
+	});
+	
+	
+
+
+
+
+
+
+
+
+	$("#bruli1").mouseover(function(){
+		$(".brand-r-logo5").attr("class","brand-r-logo1");
+	})
+	$("#bruli2").mouseover(function(){
+		$(".brand-r-logo1").attr("class","brand-r-logo2");
+	})
+	$("#bruli3").mouseover(function(){
+		$(".brand-r-logo2").attr("class","brand-r-logo3");
+	})
+	$("#bruli4").mouseover(function(){
+		$(".brand-r-logo3").attr("class","brand-r-logo4");
+	})
+	$("#bruli5").mouseover(function(){
+		$(".brand-r-logo4").attr("class","brand-r-logo5");
+	})
+</script>
+	
+
+
+
+
+

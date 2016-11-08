@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户登录-奥买家-更近更贴心</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel = "stylesheet" type = "text/css" href = "css/login.css"/>
+		<script src="js/jquery-1.11.1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="head">
+			<div class="login">
+				<a href="index.html" class="head1"><img src="img/logo-login.png"/></a>
+				<span id="welcome">
+					欢迎登录
+				</span>
+				<span id="loginr">
+					<label>没有账号？</label>
+					<a href="#" class="barber">立即注册</a>
+					<a href="#">帮助中心</a>
+				</span>
+			</div>
+		</div>
+		<div class="middle">
+			<div class="middlej">
+				<div class="jad">
+					<a href="#"></a>
+				</div>
+				<div class="loginpanel">
+					<div class="hd">
+						<i id="redline"></i>
+						<span class="username">账号登录</span>
+						<span class="userpw">手机动态登录</span>
+					</div>
+					<div class="bd">
+						<ul id="ullist">
+							<li>
+								<form id="jForm" method="post">
+									<div class="textbox">
+										
+										<input id="loginName" name="loginName" type="text" value="" class="txt"  tabindex="1" placeholder="手机号码/邮箱/用户名">
+										<span class="glyphicon glyphicon-user"></span>
+									</div>
+									<div class="textbox">
+										<input type="text" value="" class="txt"  tabindex="1" placeholder="登录密码">
+										<span class="glyphicon glyphicon-lock">
+											
+										</span>
+									</div>
+									<div class="textbox">
+										<input type="text" class="captchaCode"/>
+										<span class="glyphicon glyphicon-warning-sign"></span>
+										<del class="captcha"></del>
+									</div>
+									<div class="remember">
+										<div class="f-l">
+											<input type="checkbox" id="autologin"/>
+											<label for="autologin">2周内自动登录</label>
+											<a href="#">忘记密码？</a>
+											<input type="button" class="btn" value="登录" />
+										</div>
+									</div>
+								</form>
+							</li>
+							<li>
+								<form id="jForm" method="post">
+									<div class="textbox">
+										
+										<input id="loginName" name="loginName" type="text" value="" class="txt"  tabindex="1" placeholder="手机号码/邮箱/用户名">
+										<span class="glyphicon glyphicon-user"></span>
+									</div>
+									<div class="textbox">
+										<input id="loginPaw" type="text" value="" class="txt"  tabindex="1" placeholder="短信动态验证码">
+										<input type="button" id="phonecaptcha" value="获取短信验证码" />
+										<span class="glyphicon glyphicon-lock">
+											
+										</span>
+									</div>
+									<div class="textbox">
+										<input type="text" class="captchaCode"/>
+										<span class="glyphicon glyphicon-warning-sign"></span>
+										<del class="captcha"></del>
+									</div>
+									<div class="remember" id="re1">
+										<div class="f-l">
+											
+											<input type="button" class="btn" value="登录" />
+										</div>
+										<div class="txtforget">
+											注意：未注册过奥买家的手机号在首次登录时将自动完成注册，使用该登录方式代表您已接受<a href="#">《会员注册协议》</a>
+										</div>
+									</div>
+								</form>
+							</li>
+						</ul>
+					</div>
+					<div class="quicklogin">
+						<div class="title">
+							直接使用以下账号登录
+						</div>
+						<div class="quick-login">
+							<a href=""><span class=""></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<p>
+				<a href="#">关于奥买家</a><span>|</span>
+				<a href="#">诚聘英才</a><span>|</span>
+				<a href="#">联系我们</a>
+			</p>
+			<p>
+				粤ICP备15091122号-1|Copyright© 奥买家 2013-2016，All Rights Reserved
+			</p>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	$(".username").click(function(){
+		$("#ullist").stop(true,false).animate({"margin-left":"0"},500);
+		$("#redline").stop(true,false).animate({"left":"46px"},500);
+	});
+	$(".userpw").click(function(){
+		$("#ullist").stop(true,false).animate({"margin-left":"-350px"},500);
+		$("#redline").stop(true,false).animate({"left":"220px"},500);
+	})
+</script>

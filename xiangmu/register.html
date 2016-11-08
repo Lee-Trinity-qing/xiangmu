@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户登录-奥买家-更近更贴心</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel = "stylesheet" type = "text/css" href = "css/register.css"/>
+		<script src="js/jquery-1.11.1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="head">
+			<div class="login">
+				<a href="index.html" class="head1"><img src="img/logo-login.png"/></a>
+				<span id="welcome">
+					欢迎注册
+				</span>
+				<span id="loginr">
+					<label>已有账号？</label>
+					<a href="#" class="barber">立即登录</a>
+					<a href="#">帮助中心</a>
+				</span>
+			</div>
+		</div>
+<!--中间部分-->
+		<div class="box">
+			<form method="post">
+				<div class="user">
+					<input type="text" placeholder="手机号/邮箱/用户名" />
+					<span class="glyphicon glyphicon-user"></span>
+				</div>
+				<div class="userpw">
+					<input type="text" placeholder="密码由6-20个数字和字母的组合" />
+					<span class="glyphicon glyphicon-lock">			
+					</span>
+				</div>
+				<div class="pwbox">
+					<span>安全程度</span>
+					<ul>
+						<li>弱</li>
+						<li>中</li>
+						<li>强</li>
+					</ul>
+				</div>
+				<div class="userpw">
+					<input type="text" placeholder="密码由6-20个数字和字母的组合" />
+					<span class="glyphicon glyphicon-lock">			
+					</span>
+				</div>
+			</form>
+		</div>
+<!--尾部-->		
+		<div class="footer">
+			<p>
+				<a href="#">关于奥买家</a><span>|</span>
+				<a href="#">诚聘英才</a><span>|</span>
+				<a href="#">联系我们</a>
+			</p>
+			<p>
+				粤ICP备15091122号-1|Copyright© 奥买家 2013-2016，All Rights Reserved
+			</p>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	$(".username").click(function(){
+		$("#ullist").stop(true,false).animate({"margin-left":"0"},500);
+		$("#redline").stop(true,false).animate({"left":"46px"},500);
+	});
+	$(".userpw").click(function(){
+		$("#ullist").stop(true,false).animate({"margin-left":"-350px"},500);
+		$("#redline").stop(true,false).animate({"left":"220px"},500);
+	})
+</script>

@@ -1,0 +1,129 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration: none; color: #333;}
+a:hover{color: red; text-decoration: none;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{font-size:12px; font-family:"微软雅黑";}
+input,a{outline:none;}
+#sitnav,.header,.nav,.promo,.market,.commodity,.ic-wrap,.footer{width: 1200px; margin-left: auto; margin-right: auto;}
+/*顶部*/
+.top{background: #F5F5F5;}
+#sitnav{ height: 35px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #EEE;
+    font-size: 12px;
+    line-height: 34px;
+    color: #666;}
+.alogin{margin-left: 18px; margin-right: 21px;}
+.sitlogin{float: left;}
+.sitlogin li{float: left;}
+.alogin,.aregister{color: #FF442A;}
+.alogin:hover{font-weight: bold;}
+.aregister:hover{font-weight: bold; }
+.sitright{float: right;}
+.sitright li{float: right; margin: 0 5px; text-align: center;}
+.tphone:hover{color: #333;}
+.tsig:hover{color: #333;}
+#ts1,#ts2{color: #CB2027; font-size: 16px;}
+#private{width: 81px;padding: 5px 0; text-align: center; padding-left: 4px; display: none;background-color: #fff;border: 1px solid #e4e4e4; height: 154px; border-top: 0;}
+#private a{float: left;}
+#tmenu{height: 34px; width: 82px; opacity: 0.9; filter: alpha(opacity = 90);}
+.tmenu2{background-color: #fff;border: 1px solid #e4e4e4;border-top: 0; border-bottom: 0; }
+#tcode{height: 34px; width: 78px;}
+#tcimg{height: 208px; position: absolute; top: 34px; right: 126px; width: 160px; display: none;background-color: #fff; border: 1px solid #e4e4e4;border-top: 0; z-index: 1000;}
+.tmenu3{background-color: #fff; border: 1px solid #e4e4e4;border-top: 0; border-bottom: 0;}
+/*头部*/
+.header{height: 120px;}
+.logodiv{width: 361px;height: 120px;float: left;}
+.headerlogo1{width: 164px; height: 120px; float: left;}
+.headerlogo2{width: 197px; height: 120px; float: left;}
+.headermain{width: 390px;height: 30px;border: 2px solid #ff432e;float: left; margin: 0 auto;}
+.headerbtn{float: right;width: 70px;height: 26px; background-color: #ff432e;border: 0;font-size: 14px;color: #FFF;font-weight: 400; background-image: url(../img/search.png); background-repeat: no-repeat; background-position: center 3px }
+.headersearch{float: left; width: 314px; height: 26px;color: #858585; font-size: 12px; line-height: 14px; border: 0; font-weight: 400; margin: 0 auto;}
+.headercenter{width: 394px;height: 48px;padding-top: 42px; margin-left: 100px; float: left;}
+.jwsuggest{margin-top:32px;}
+.ipa{color: red;}
+.kaa{color:#ADADAD; margin-left: 10px;}
+.subtips{ height: 39px; float: right; margin-top: 40px;}
+.subtipsa1,.subtipsa2,.subtipsa3{width: 64px; height: 33px; margin-left: 30px;}
+.subtipsa1{background: url(../img/logo.png) no-repeat -91px -180px; float: left;}
+.subtipsa2{background: url(../img/logo.png) no-repeat -91px -213px; float: left;}
+.subtipsa3{background: url(../img/logo.png) no-repeat -91px -246px; float: right;}
+/*nav*/
+
+/*footer*/
+.footerbg{background: #D3D3D3; height: 172px; padding-top: 32px;}
+.footer-logo{width: 250px;
+    float: left; }
+.footer-logo-box{padding-top: 22px;position: relative;}  
+.footer-logo-box span {
+    display: block;
+    width: 60px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #666;
+    float: left;
+}
+.footer-logo-box a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    text-align: center;
+    float: left;
+    line-height: 30px;
+    margin-left: 12px;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+.footer-menu1 {
+    width: 150px;
+    padding-left: 10px;
+    float: left;
+}
+.footer-menu1 dl dt {
+    display: block;
+    padding-bottom: 6px;
+}
+.footer-menu1 dl dt a {
+    line-height: 24px;
+    font-size: 18px;
+    color: #000;
+}
+.footer-menu1 dl dd a {
+    line-height: 22px;
+    font-size: 12px;
+    color: #666;
+    font-family: "宋体";
+}
+.footer-menu1 dl a:hover{text-decoration: underline;}
+.footer-code {
+    width: 120px;
+    height: 119px;
+    float: left;
+    text-align: center;
+}
+.footer-code p {
+    font-size: 12px;
+    color: #666;
+    line-height: 16px;
+}
+.footer-code p img{width: 100px; height: 100px; margin: 0 auto;}
+/*copyright*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
